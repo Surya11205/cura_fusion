@@ -1,0 +1,75 @@
+fetch_patient_data_task:
+  description: >
+    Retrieve patient case details from Kafka or fetch fresh data if unavailable.
+  expected_output: >
+    A structured JSON with patient ID, vitals, lab results, and metadata.
+  agent: data_fetch_agent
+  output_schema:
+    type: "object"
+    properties:
+      patient_id:
+        type: "integer"
+      vitals:
+        type: "object"
+        additionalProperties: true
+      lab_results:
+        type: "object"
+        additionalProperties: true
+      department:
+        type: "string"
+      age:
+        type: "integer"
+      sex:
+        type: "string"
+
+
+
+
+monitor_thresholds_task:
+  description: >
+    Monitor patient vitals, compare them against predefined thresholds,
+    and generate alerts if values exceed the safe range.
+  expected_output: >
+    A JSON object with alert messages, exceeded threshold values, and severity levels.
+  agent: threshold_monitoring_agent
+  output_file: alerts.json
+  output_schema:
+    type: "array"
+    items:
+      type: "object"
+      properties:
+        patient_id:
+          type: "integer"
+        alert_type:
+          type: "string"
+        recorded_value:
+          type: "number"
+        unit:
+          type: "string"
+        expected_range:
+          type: "string"
+        severity:
+          type: "string"
+        message:
+          type: "string"
+
+user_query_task:
+  description: >
+    Answer user queries related to patient data, case tracking, or alerts.
+    Provide a concise summary of patient status and generate next steps 
+    based on alert severity and patient condition.
+  expected_output: >
+    A human-readable response with relevant patient or alert data, 
+    including dynamically generated next steps for critical situations.
+  agent: user_interaction_agent
+  output_schema:
+    type: "object"
+    properties:
+      summary:
+        type: "string"
+      alert_details:
+        type: "array"
+        items:
+          type: "string"
+      next_steps:
+        type: "string"

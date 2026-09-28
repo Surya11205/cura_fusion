@@ -1,0 +1,197 @@
+tname,min_value,max_value,unit
+Arterial Pressure Wave,70,100,mmHg
+Central Venous Pressure Wave,2,6,mmHg
+ECG Lead II Wave,N/A,N/A,mV
+ECG Lead V5 Wave,N/A,N/A,mV
+Femoral Arterial Pressure Wave,70,100,mmHg
+Plethysmography Wave,N/A,N/A,unitless
+Diastolic Arterial Pressure,60,80,mmHg
+Mean Arterial Pressure,70,100,mmHg
+Systolic Arterial Pressure,90,120,mmHg
+Body Temperature,36.1,37.2,℃
+Central Venous Pressure,2,6,mmHg
+End-Tidal CO2,35,45,mmHg
+Femoral Diastolic Arterial Pressure,60,80,mmHg
+Femoral Mean Arterial Pressure,70,100,mmHg
+Femoral Systolic Arterial Pressure,90,120,mmHg
+Fraction of Expired O2,N/A,N/A,%
+Fraction of Inspired O2,21,100,%
+Expiratory Volatile Concentration,N/A,N/A,%
+Inspiratory Volatile Concentration,N/A,N/A,%
+Heart Rate,60,100,bpm
+Inspiratory CO2,0,5,mmHg
+Non-Invasive Diastolic Arterial Pressure,60,80,mmHg
+Non-Invasive Mean Arterial Pressure,70,100,mmHg
+Non-Invasive Systolic Arterial Pressure,90,120,mmHg
+Pulmonary Diastolic Arterial Pressure,8,15,mmHg
+Pulmonary Mean Arterial Pressure,10,20,mmHg
+Pulmonary Systolic Arterial Pressure,15,25,mmHg
+Heart Rate (Plethysmography),60,100,bpm
+Percutaneous Oxygen Saturation,95,100,%
+Respiratory Rate (ECG),12,20,breaths/min
+Respiratory Rate (Capnography),12,20,breaths/min
+ST Segment (aVF),-0.5,0.5,mm
+ST Segment (aVL),-0.5,0.5,mm
+ST Segment (aVR),-0.5,0.5,mm
+ST Segment (I),-0.5,0.5,mm
+ST Segment (II),-0.5,0.5,mm
+ST Segment (III),-0.5,0.5,mm
+ST Segment (V5),-0.5,0.5,mm
+Airway Compliance (Ventilator),50,100,mL/mbar
+Inspiratory Time (Ventilator),0.8,1.2,sec
+Mean Airway Pressure (Ventilator),5,10,mbar
+Positive End-Expiratory Pressure (Ventilator),3,5,mbar
+Minute Ventilation (Ventilator),5,8,L/min
+Peak Inspiratory Pressure (Ventilator),10,20,mbar
+Plateau Pressure (Ventilator),10,20,mbar
+Respiratory Rate (Ventilator),12,20,breaths/min
+Set Fraction of Inspired O2 (Ventilator),21,100,%
+Set Peak Inspiratory Pressure (Ventilator),10,20,cmH2O
+Set Tidal Volume (Ventilator),6,8,mL/kg
+Measured Tidal Volume (Ventilator),6,8,mL/kg
+Airway Pressure Wave,5,10,hPa
+Capnography Wave,35,45,mmHg
+Airway Compliance,50,100,mL/mbar
+End-Tidal CO2,35,45,mmHg
+Expiratory Desflurane Pressure,N/A,N/A,kPa
+Expiratory Sevoflurane Pressure,N/A,N/A,kPa
+Fraction of Expired N2O,N/A,N/A,%
+Fraction of Expired O2,N/A,N/A,%
+Fraction of Inspired N2O,N/A,N/A,%
+Fraction of Inspired O2,21,100,%
+Flow Rate of Air,N/A,N/A,mL/min
+Flow Rate of N2O,N/A,N/A,mL/min
+Flow Rate of O2,N/A,N/A,mL/min
+Inspiratory CO2,0,5,mmHg
+Inspiratory Desflurane Pressure,N/A,N/A,kPa
+Inspiratory Sevoflurane Pressure,N/A,N/A,kPa
+Minimum Alveolar Concentration,0.8,1.2,unitless
+Mean Airway Pressure,5,10,mbar
+Minute Volume,5,8,L
+Ambient Pressure,1013,1013,mbar
+Positive End-Expiratory Pressure,3,5,mbar
+Peak Inspiratory Pressure,10,20,mbar
+Plateau Pressure,10,20,mbar
+Respiratory Rate (Capnography),12,20,breaths/min
+Patient Age,N/A,N/A,years
+Set Fraction of Inspired O2,21,100,%
+Set Flow Trigger Value,1,3,mL/min
+Set Fresh Gas Flow,N/A,N/A,mL/min
+Set Inspiratory Pause,10,20,%
+Set Inspiratory Pressure,10,20,mbar
+Set Inspiratory Time,0.8,1.2,sec
+Set Positive End-Expiratory Pressure,3,5,mbar
+Set Peak Inspiratory Pressure,10,20,mbar
+Set Respiratory Rate,12,20,breaths/min
+Set Tidal Volume (Liters),6,8,L
+Tidal Volume,6,8,mL/kg
+Ventilator Leakage,N/A,N/A,mL/min
+Infusion Rate (Amiodarone),N/A,N/A,mL/hr
+Infused Volume (Amiodarone),N/A,N/A,mL
+Infusion Rate (Dexmedetomidine 2 mcg/mL),N/A,N/A,mL/hr
+Infused Volume (Dexmedetomidine 2 mcg/mL),N/A,N/A,mL
+Infusion Rate (Dexmedetomidine 4 mcg/mL),N/A,N/A,mL/hr
+Infused Volume (Dexmedetomidine 4 mcg/mL),N/A,N/A,mL
+Infusion Rate (Dobutamine),N/A,N/A,mL/hr
+Infused Volume (Dobutamine),N/A,N/A,mL
+Infusion Rate (Dopamine),N/A,N/A,mL/hr
+Infused Volume (Dopamine),N/A,N/A,mL
+Infusion Rate (Diltiazem),N/A,N/A,mL/hr
+Infused Volume (Diltiazem),N/A,N/A,mL
+Infusion Rate (Epinephrine),N/A,N/A,mL/hr
+Infused Volume (Epinephrine),N/A,N/A,mL
+Infusion Rate (Futhan),N/A,N/A,mL/hr
+Infused Volume (Futhan),N/A,N/A,mL
+Infusion Rate (Milrinone),N/A,N/A,mL/hr
+Infused Volume (Milrinone),N/A,N/A,mL
+Infusion Rate (Norepinephrine),N/A,N/A,mL/hr
+Infused Volume (Norepinephrine),N/A,N/A,mL
+Infusion Rate (Nitroprusside),N/A,N/A,mL/hr
+Infused Volume (Nitroprusside),N/A,N/A,mL
+Infusion Rate (Nitroglycerin),N/A,N/A,mL/hr
+Infused Volume (Nitroglycerin),N/A,N/A,mL
+Infusion Rate (Oxytocin),N/A,N/A,mL/hr
+Infused Volume (Oxytocin),N/A,N/A,mL
+Infusion Rate (Prostaglandin-E1),N/A,N/A,mL/hr
+Infused Volume (Prostaglandin-E1),N/A,N/A,mL
+Infusion Rate (Phenylephrine),N/A,N/A,mL/hr
+Infused Volume (Phenylephrine),N/A,N/A,mL
+Effect-Site Concentration (Propofol),N/A,N/A,mcg/mL
+Plasma Concentration (Propofol),N/A,N/A,mcg/mL
+Target Concentration (Propofol),N/A,N/A,mcg/mL
+Infusion Rate (Propofol),N/A,N/A,mL/hr
+Infused Volume (Propofol),N/A,N/A,mL
+Effect-Site Concentration (Remifentanil 20 mcg/mL),N/A,N/A,ng/mL
+Plasma Concentration (Remifentanil 20 mcg/mL),N/A,N/A,ng/mL
+Target Concentration (Remifentanil 20 mcg/mL),N/A,N/A,ng/mL
+Infusion Rate (Remifentanil 20 mcg/mL),N/A,N/A,mL/hr
+Infused Volume (Remifentanil 20 mcg/mL),N/A,N/A,mL
+Effect-Site Concentration (Remifentanil 50 mcg/mL),N/A,N/A,ng/mL
+Plasma Concentration (Remifentanil 50 mcg/mL),N/A,N/A,ng/mL
+Target Concentration (Remifentanil 50 mcg/mL),N/A,N/A,ng/mL
+Infusion Rate (Remifentanil 50 mcg/mL),N/A,N/A,mL/hr
+Infused Volume (Remifentanil 50 mcg/mL),N/A,N/A,mL
+Infusion Rate (Rocuronium),N/A,N/A,mL/hr
+Infused Volume (Rocuronium),N/A,N/A,mL
+Infusion Rate (Vasopressin),N/A,N/A,mL/hr
+Infused Volume (Vasopressin),N/A,N/A,mL
+Infusion Rate (Vecuronium),N/A,N/A,mL/hr
+Infused Volume (Vecuronium),N/A,N/A,mL
+Bispectral Index,40,60,unitless
+EEG Wave (Channel 1),N/A,N/A,uV
+EEG Wave (Channel 2),N/A,N/A,uV
+Electromyography Power,30,50,dB
+Spectral Edge Frequency,8,13,Hz
+Signal Quality Index,95,100,%
+Suppression Ratio,0,10,%
+Total Power,N/A,N/A,dB
+Cerebral Oxygen Saturation (Left),55,75,%
+Cerebral Oxygen Saturation (Right),55,75,%
+Cardiac Index,2.5,4,L/min/m2
+Cardiac Output,4,8,L/min
+Stroke Volume,60,100,mL/beat
+Stroke Volume Index,33,47,mL/beat/m2
+Stroke Volume Variation,10,13,%
+Mean Arterial Pressure,70,100,mmHg
+Cardiac Index,2.5,4,L/min/m2
+Cardiac Output,4,8,L/min
+Central Venous Pressure Wave,2,6,cmH2O
+Stroke Volume,60,100,mL/beat
+Stroke Volume Index,33,47,mL/beat/m2
+Systemic Vascular Resistance,800,1200,dn-s/cm5
+Systemic Vascular Resistance Index,1970,2390,dn-s-m2/cm5
+Stroke Volume Variation,10,13,%
+Pulmonary Artery Temperature,36.1,37.2,℃
+Cardiac Index,2.5,4,L/min/m2
+Cardiac Output,4,8,L/min
+End-Diastolic Volume,120,150,mL
+End-Diastolic Volume Index,60,100,mL/m2
+End-Systolic Volume,50,70,mL
+End-Systolic Volume Index,25,35,mL/m2
+Average Heart Rate,60,100,bpm
+Right Ventricular Ejection Fraction,45,55,%
+Signal-to-Noise Ratio,N/A,N/A,dB
+Signal Quality Index,95,100,%
+Stroke Volume,60,100,mL/beat
+Stroke Volume Index,33,47,mL/beat/m2
+Mixed Venous Oxygen Saturation,65,75,%
+Arterial Pressure Wave,70,100,mmHg
+Flow Wave,N/A,N/A,cm/sec
+Cardiac Index,2.5,4,L/min/m2
+Cardiac Output,4,8,L/min
+Flow Time Corrected,330,360,ms
+Flow Time to Peak,N/A,N/A,ms
+Heart Rate,60,100,bpm
+Mean Acceleration,N/A,N/A,cm/sec2
+Minute Distance,N/A,N/A,cm
+Peak Velocity,N/A,N/A,cm/sec
+Stroke Distance,N/A,N/A,cm
+Stroke Volume,60,100,mL/beat
+Stroke Volume Index,33,47,mL/beat/m2
+Flow Rate,N/A,N/A,mL
+Input Ambient Temperature,N/A,N/A,℃
+Input Fluid Temperature,N/A,N/A,℃
+Output Ambient Temperature,N/A,N/A,℃
+Output Fluid Temperature,N/A,N/A,℃
+Infusion Line Pressure,N/A,N/A,mmHg
+Total Infused Volume,N/A,N/A,mL
